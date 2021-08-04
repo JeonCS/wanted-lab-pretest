@@ -30,7 +30,6 @@
   <img src="./model_architecture.png" width="500">
 </p>
 
-
 - loss function: cross entropy, optimizer: Adam optimizer
 - 최고의 성능을 보인 모델 저장을 위하여 model checkpointing 및 빠른 학습 종료를 위한 early stopping 사용
 
@@ -68,3 +67,11 @@
   - jd_text를 전처리 도구를 사용하여 모델 입력에 맞게 전처리 (위 데이터 전처리 2. ~ 4. 과정)
   - 전처리 된 데이터를 모델 입력 후 모델 추론
   - 추론값을 response message "직군"에 담아 전송
+    <br>
+
+# **개발 환경**
+
+```
+python --version
+>> Python 3.8.11
+```
